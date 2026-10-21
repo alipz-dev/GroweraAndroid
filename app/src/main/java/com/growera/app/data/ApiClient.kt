@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
 class ApiClient {
     companion object {
         // Must match the Vercel deployment that owns the /api/growera rewrite.
-        const val API_BASE_URL = "https://growera-website.vercel.app/api/growera"
+        const val API_BASE_URL = "https://growera.vercel.app/api/growera"
         private val JSON = "application/json; charset=utf-8".toMediaType()
     }
 
